@@ -1,0 +1,13 @@
+[package]
+name = "rs-ntt-polynomial"
+version = "1.0.0"
+edition = "2021"
+description = "Number Theoretic Transform for fast polynomial multiplication"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-ntt-polynomial"
+keywords = ["rust", "ntt", "polynomial", "number-theory", "algorithms"]
+
+[[bin]]
+name = "rs_ntt_polynomial"
+path = "main.rs"
